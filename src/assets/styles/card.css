@@ -1,0 +1,22 @@
+.button-container {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    /* transition: height 5s ease-in-out; */
+    animation: moveText 0.3s ease-in;
+   
+  }
+  
+  .button-container.hovered {
+    height: 40px; /* Adjust the height as needed */
+  }
+@keyframes moveText {
+    0%{
+        top: -10px;
+    }
+   100%{
+        top: 0px;
+    }
+
+    
+}
